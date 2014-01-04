@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F3ECB28E18763FBE00CEE466 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3ECB28D18763FBE00CEE466 /* main.cpp */; };
 		F3ECB29018763FBE00CEE466 /* PracticeCoding.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3ECB28F18763FBE00CEE466 /* PracticeCoding.1 */; };
+		F3ECB2981876402200CEE466 /* Problem1_1_Solver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3ECB2961876402200CEE466 /* Problem1_1_Solver.cpp */; };
+		F3ECB29B18766CEF00CEE466 /* Problem1_2_Solver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3ECB29918766CEF00CEE466 /* Problem1_2_Solver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		F3ECB28A18763FBE00CEE466 /* PracticeCoding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeCoding; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ECB28D18763FBE00CEE466 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F3ECB28F18763FBE00CEE466 /* PracticeCoding.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PracticeCoding.1; sourceTree = "<group>"; };
+		F3ECB2961876402200CEE466 /* Problem1_1_Solver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem1_1_Solver.cpp; sourceTree = "<group>"; };
+		F3ECB2971876402200CEE466 /* Problem1_1_Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem1_1_Solver.h; sourceTree = "<group>"; };
+		F3ECB29918766CEF00CEE466 /* Problem1_2_Solver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem1_2_Solver.cpp; sourceTree = "<group>"; };
+		F3ECB29A18766CEF00CEE466 /* Problem1_2_Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem1_2_Solver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				F3ECB28D18763FBE00CEE466 /* main.cpp */,
+				F3ECB2961876402200CEE466 /* Problem1_1_Solver.cpp */,
+				F3ECB2971876402200CEE466 /* Problem1_1_Solver.h */,
+				F3ECB29918766CEF00CEE466 /* Problem1_2_Solver.cpp */,
+				F3ECB29A18766CEF00CEE466 /* Problem1_2_Solver.h */,
 				F3ECB28F18763FBE00CEE466 /* PracticeCoding.1 */,
 			);
 			path = PracticeCoding;
@@ -117,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ECB2981876402200CEE466 /* Problem1_1_Solver.cpp in Sources */,
+				F3ECB29B18766CEF00CEE466 /* Problem1_2_Solver.cpp in Sources */,
 				F3ECB28E18763FBE00CEE466 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
